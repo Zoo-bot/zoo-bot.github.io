@@ -1,0 +1,102 @@
+#brand {
+  text-transform: uppercase;
+  margin-right: 50px;
+  font-size: 130%;
+}
+
+#banner #logo {
+  max-width: 100%;
+}
+
+#banner, #banner b {
+  color: #444;
+  padding-top: 200px;
+}
+
+.tagline {
+  font-size: 32px;
+  line-height: 1.15;
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 0;
+}
+
+.products img {
+  width: 100%;
+}
+
+#site-header {
+  padding: 0;
+  background: #009A9C;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 100;
+}
+#site-navigation {
+  padding: 20px 0;
+  clear: both;
+}
+
+#site-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#site-navigation li {
+  float: left;
+  margin-left: 20px;
+}
+
+#site-navigation li:first-child {
+  margin-left: 0;
+}
+
+#site-navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.application-steps {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/*
+ * Slick overrides
+ */
+
+.slick-dots li button {
+  background: transparent !important;
+}
+
+.slick-arrow, .slick-arrow:before {
+  background: transparent !important;
+  color: #444 !important;
+  font-size: 30px;
+}
+
+.slick-prev {
+  left: -35px;
+}
+
+.testimonial-slider {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.products img {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.product {
+  margin-bottom: 80px;
+}
+
+.product button {
+  padding: 0 10px;
+}
