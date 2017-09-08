@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+u<!DOCTYPE HTML>
 <html>
 <head>
     <title>Zoobots - Code your SMART jungle</title>
@@ -21,57 +21,74 @@
             <li id="brand">
                 <a href="http://zoobots.co">Zoobots</a>
             </li>
-            <li>
-                <a href="#playing-with-toys"
-                   onclick="Zoobots.onNavigationClick(event, 'playing-with-toys')">Playing with Toys</a>
-            </li>
-            <li>
-                <a href="#playing-with-code"
-                   onclick="Zoobots.onNavigationClick(event, 'playing-with-code')">Playing with Code</a>
-            </li>
-            <li>
-                <a href="#products"
-                   onclick="Zoobots.onNavigationClick(event, 'products')">Our Zoo</a>
-            </li>
-            <li>
-                <a href="#contact"
-                   onclick="Zoobots.onNavigationClick(event, 'contact')">Contact Us</a>
-            </li>
         </ul>
     </nav>
 </header>
+<section id="banner">
+  <img id="logo" src="images/zoobot-logo.png" alt="Zoobot. Code your SMART jungle"/>
+</section>
 
 <!-- Banner -->
-<section id="banner">
-    <img id="logo" src="images/zoobot-logo.png" alt="Zoobot. Code your SMART jungle"/>
+<section id="playing-with-code" class="wrapper special style2">
     <p class="tagline">
-        Zoobots are programmable education toys for kids.
+    <div>
+        <button onclick="Zoobots.onProductClick(event)" class="special big"
+                data-product-name="freddy-frog">
+            GET IN TOUCH
+        </button>
+    </div>
     </p>
     <p class="tagline">
-        We incorporate
-        <b>robotics</b> and
-        <b>artificial intelligence</b> to provide a unique education experience for your child.
+      <b>YOUR TOOLS TO RAISE TOMORROW'S LEADERS IN TECH </b>
+    </p>
+    <p class="tagline">
+      ENGAGE CHILDREN TO LEARN CODING EARLY-ON USING HANDS-ON <b>ROBOTICS</b> AND <b>AI</b>
     </p>
 </section>
 
 <!--playing with toys-->
-<section id="playing-with-toys" class="wrapper special">
-    <div class="inner">
-        <header class="major">
-            <h2>Play with toys</h2>
-            <p>Break them apart, and build your own zoo animal</p>
-        </header>
-        <div class="row">
-            <div class="4u 12u$(small)">
-                <img class="image fit" src="images/step-1-play.jpg"/>
+<section id="playing-with-toys" class="wrapper">
+  <div class="row">
+          <header class="major">
+            <h2><center>
+                                   <br />
+                                   <br />
+              <b>BLOCK & TEXT BASED CODE</b> <br /><br />
+              Your child will build a foundation for logic using <br />
+              drag and drop code and learn applicable skills <br />
+              trough traditional text-based coding. <br /></center>
+            </h2>
+          </header>
+        <img src="images/block_small.png" align="middle">
+  </div>
+    <div class="row">
+          <img src="images/zoobot.png" align="middle">
+            <header class="major">
+              <h2><b><center>
+                              <br />
+                              <br />
+                MACHINE LEARNING & AI</b> <br /><br />
+                Your child will learn to use AI <br />
+                to extend the robot’s ability to move on its own,<br />
+                have a conversation and recognize your family.<br /></center>
+              </h2>
+            </header>
+    </div>
+    <div class="row">
+            <header class="major">
+              <h2><center>
+                                     <br />
+                                     <br />
+                <b>SNAPPABLE PETS</b> <br /><br />
+                Programmable Educational Toys (PETs) can be <br />
+                mixed-n-matched to nourish your child's creativity  <br />
+                in a hands-on way. <br /></center>
+              </h2>
+            </header>
+            <div id="cf">
+                <img class="bottom" src="images/break4.png" />
+                <img class="top" src="/images/recreate.png" />
             </div>
-            <div class="4u 12u$(small)">
-                <img class="image fit" src="images/step-2-break.jpg"/>
-            </div>
-            <div class="4u$ 12u$(small)">
-                <img class="image fit" src="images/step-3-recreate.jpg"/>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -79,22 +96,18 @@
 <section id="playing-with-code" class="wrapper special style2">
     <div class="inner">
         <header class="major">
-            <h2>Code as you play</h2>
-            <p>When the toy is changed the code is updated.</p>
+            <h2>CODE YOUR FUN</h2>
         </header>
         <div class="row">
             <div class="12u$">
                 <div class="slider application-steps">
                     <div>
-                        <p><b>1. Mission Screen:</b> Explore and map your house, find objects, teach Zoobot how to name the objects.</p>
                         <img class="image fit" src="images/application-mission-screen.png"/>
                     </div>
                     <div>
-                        <p><b>2. Main Screen:</b> Look under the hood, and teach your bot new tricks.</p>
                         <img class="image fit" src="images/application-main-screen.png"/>
                     </div>
                     <div>
-                        <p><b>3. Learn To Code:</b> Take your knowledge to the next level and break into the code.</p>
                         <img class="image fit" src="images/application-code-screen.png"/>
                     </div>
                 </div>
@@ -107,29 +120,28 @@
 <section id="products" class="wrapper special products">
     <div class="inner">
         <header class="major">
-            <h2>Our Zoo</h2>
-            <p>The toy can understand your kid, can find and fetch things, and play tricks</p>
+            <h2>Meet the Zoobot Ecosystem</h2>
         </header>
         <div class="row">
             <div class="4u 12u$(small) product">
                 <img src="images/sally-snake.png"/>
                 <button onclick="Zoobots.onProductClick(event)" class="special big"
                         data-product-name="sally-snake">
-                    Get Sally
+                    Take Sally Home
                 </button>
             </div>
             <div class="4u 12u$(small) product">
                 <img src="images/freddy-frog.png"/>
                 <button onclick="Zoobots.onProductClick(event)" class="special big"
                         data-product-name="freddy-frog">
-                    Get Freddy
+                    Take Freddy Home
                 </button>
             </div>
             <div class="4u$ 12u$(small) product">
                 <img src="images/danny-dog.png"/>
                 <button onclick="Zoobots.onProductClick(event)" class="special big"
                         data-product-name="danny-dog">
-                    Get Danny
+                    Take Danny Home
                 </button>
             </div>
         </div>
